@@ -28,7 +28,7 @@ A RESTful API built with FastAPI for managing a collection of books. This API pr
 
 - Python 3.8 or higher
 - pip package manager
-- Docker (optional, for containerized deployment)
+
 
 ### Option 1: Local Python Installation
 
@@ -61,7 +61,7 @@ A RESTful API built with FastAPI for managing a collection of books. This API pr
    
    Or using uvicorn directly:
    ```bash
-   uvicorn main:app --reload --host 0.0.0.0 --port 8000
+   uvicorn main:app --reload --host localhost --port 8000
    ```
 
 ### Access the Application
@@ -347,17 +347,6 @@ For production deployment, consider:
 4. **Monitoring**: Add logging and health checks
 5. **Performance**: Use connection pooling and caching
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests
-5. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License.
 
 ## Support
 
